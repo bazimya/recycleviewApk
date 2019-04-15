@@ -36,7 +36,7 @@ public class RecycleviewAdpter extends RecyclerView.Adapter<RecycleviewAdpter.My
         myviewholder.tv_discription.setText(mdata.get(i).getName());
         myviewholder.another.setText(mdata.get(i).getCall());
         myviewholder.ytpe21.setText(mdata.get(i).getType());
-        myviewholder.img.setImageResource(mdata.get(i).getImage());
+//        myviewholder.img.setImageResource(mdata.get(i).getImage());
 
     }
 
@@ -57,7 +57,7 @@ public class RecycleviewAdpter extends RecyclerView.Adapter<RecycleviewAdpter.My
            another = (TextView)itemView.findViewById(R.id.inbetween);
            ytpe21 = (TextView)itemView.findViewById(R.id.type1);
 
-           img = (ImageView)itemView.findViewById(R.id.image_id);
+//           img = (ImageView)itemView.findViewById(R.id.image_id);
        }
 
    }

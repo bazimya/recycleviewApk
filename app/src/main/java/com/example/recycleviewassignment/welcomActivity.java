@@ -29,8 +29,8 @@ public class welcomActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
 
 //        set icons to tablayout
-        tabLayout.getTabAt(0).setIcon(R.drawable.ic_call);
-        tabLayout.getTabAt(1).setIcon(R.drawable.ic_group);
+//        tabLayout.getTabAt(0).setIcon(R.drawable.ic_call);
+//        tabLayout.getTabAt(1).setIcon(R.drawable.ic_group);
 
     }
 }
